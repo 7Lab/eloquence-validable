@@ -47,7 +47,6 @@
             "Sofa\\Eloquence\\Tests\\": "tests"
         }
     },
-    "minimum-stability": "stable",
     "scripts": {
         "test": "phpunit && ./vendor/bin/phpcs src --standard=psr2 --report=diff --colors",
         "phpcs": "./vendor/bin/phpcs src --standard=psr2 --report=diff --colors"
