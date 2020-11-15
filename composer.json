@@ -22,9 +22,15 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://git.falcon.zone/siteonline/eloquence-base.git"
+        }
+    ],
     "require": {
         "php": ">=7.0.0",
-        "sofa/eloquence-base": "^5.5|^6.0|^7.0"
+        "siteonline/eloquence-base": "dev-lv8"
     },
     "require-dev": {
         "phpunit/phpunit": "4.5.0",
